@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486561867543",
+    "project_id": "zyra-moments-49be6",
+    "storage_bucket": "zyra-moments-49be6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486561867543:android:7aab1b11c448cf3c07b952",
+        "android_client_info": {
+          "package_name": "com.example.zyra_momments_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486561867543-98tpaj824qna7bo40hj4vobnscpc41ov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zyra_momments_app",
+            "certificate_hash": "3314fc0e949f639dabbc086c1e4dd77a917e1c79"
+          }
+        },
+        {
+          "client_id": "486561867543-i043od35cgpuksoeb2n2mv3i62rn651i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5Yjge88zzehbzFCXVUihqnJOb1Xv76Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486561867543-i043od35cgpuksoeb2n2mv3i62rn651i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

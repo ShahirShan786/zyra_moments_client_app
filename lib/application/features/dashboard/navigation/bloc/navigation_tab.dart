@@ -1,0 +1,1 @@
+enum NavigationTab {home , discover , events ,profile,}
