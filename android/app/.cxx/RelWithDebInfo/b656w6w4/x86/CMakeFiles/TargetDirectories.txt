@@ -1,0 +1,2 @@
+D:/Dark_Mox-brocamp/week-21/zyra_moments_app_v2/zyra_momments_app/android/app/.cxx/RelWithDebInfo/b656w6w4/x86/CMakeFiles/edit_cache.dir
+D:/Dark_Mox-brocamp/week-21/zyra_moments_app_v2/zyra_momments_app/android/app/.cxx/RelWithDebInfo/b656w6w4/x86/CMakeFiles/rebuild_cache.dir
