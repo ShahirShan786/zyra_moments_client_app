@@ -1,3 +1,19 @@
+// At the top of your android/build.gradle file
+buildscript {
+    ext.kotlin_version = '2.1.20'  // Add or update this line
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // Your other dependencies...
+    }
+}
+
+
 allprojects {
     repositories {
         google()

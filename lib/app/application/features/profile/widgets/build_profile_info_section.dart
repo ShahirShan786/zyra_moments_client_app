@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:intl/intl.dart';
 import 'package:zyra_momments_app/app/application/features/profile/bloc/profile_bloc.dart';
 import 'package:zyra_momments_app/app/application/features/profile/sub_screens/profile_update_screen/profile_update_screen.dart';
 import 'package:zyra_momments_app/app/application/features/profile/widgets/detail_card.dart';
@@ -125,8 +126,8 @@ Widget buildProfileInfoSection(
                             info: " ${user.phoneNumber}",
                           ),
                           InfoCard(
-                              info:
-                                  " ${user.createdAt.day}-${user.createdAt.month}-${user.createdAt.year}"),
+                              info: DateFormat("dd-MMMM-yyyy")
+                                  .format(user.createdAt)),
                         ],
                       ),
                       SizedBox(
@@ -209,8 +210,10 @@ Widget buildProfileInfoSection(
                             Expanded(
                               child: CustomText(
                                 text: (user.place != null &&
-                                        user.place!.trim().isNotEmpty)
-                                    ? user.place!
+                                        user.place!.trim().isNotEmpty &&
+                                        user.place!.trim().toLowerCase() !=
+                                            'null')
+                                    ? user.place!.trim()
                                     : "Not added",
                                 maxLines: 3,
                                 overflow: TextOverflow.ellipsis,
